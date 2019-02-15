@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='lipnet',
     version='0.1.6',
@@ -7,7 +7,7 @@ setup(name='lipnet',
     author='Muhammad Rizki A.R.M',
     author_email='rizki@rizkiarm.com',
     license='MIT',
-    packages=['lipnet'],
+    packages=find_packages(exclude=['tests'])
     zip_safe=False,
 	install_requires=[
         #'Keras==2.0.2',
