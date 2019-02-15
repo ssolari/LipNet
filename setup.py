@@ -7,7 +7,7 @@ setup(name='lipnet',
     author='Muhammad Rizki A.R.M',
     author_email='rizki@rizkiarm.com',
     license='MIT',
-    packages=find_packages(exclude=['tests'])
+    packages=find_packages(exclude=['tests']),
     zip_safe=False,
 	install_requires=[
         #'Keras==2.0.2',
